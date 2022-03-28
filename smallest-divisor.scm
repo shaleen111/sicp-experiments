@@ -1,0 +1,11 @@
+(define (smallest-divisor n)
+    (define (find-divisor test)
+        (cond ((> (square test) n) n)
+              ((divides? test n) test)
+              (else (find-divisor (+ test 1)))))
+    (define (divides? test n)
+        (= (remainder n test) 0))
+    (find-divisor 2))
+
+(define (prime? n)
+    (= (smallest-divisor n) n))
