@@ -9,7 +9,7 @@ SICP Experiments
 </p>
 
 Programs written as I make my way through Sussman and Abelson's Structure and Interpretation of Computer Programs.
-An online copy of the book with nice typset can be found [here](https://sarabander.github.io/sicp/). 
+An online copy of the book with nice typeset can be found [here](https://sarabander.github.io/sicp/). 
 
 
 <p align="center">
